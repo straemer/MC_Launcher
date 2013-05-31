@@ -18,7 +18,7 @@
 Name=Minecraft
 Comment=Minecraft
 Keywords=game;
-Exec=minecraft
+Exec=minecraft /usr/local/bin/minecraft.jar
 Icon=minecraft
 Terminal=false
 Type=Application
