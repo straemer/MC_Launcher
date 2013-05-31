@@ -22,7 +22,7 @@ dconf write /org/compiz/profiles/unity/plugins/unityshell/reveal-trigger 1
 RESPONSIVENESS=$(dconf read /org/compiz/profiles/unity/plugins/unityshell/edge-responsiveness)
 dconf write /org/compiz/profiles/unity/plugins/unityshell/edge-responsiveness 0.0
 
-java -Xmx10G -Xms4G -cp $1 net.minecraft.LauncherFrame
+java -Xmx10G -Xms4G -jar $1
 
 dconf write /org/compiz/profiles/unity/plugins/unityshell/launcher-hide-mode $AUTOHIDE
 dconf write /org/compiz/profiles/unity/plugins/unityshell/reveal-trigger $TRIGGER
